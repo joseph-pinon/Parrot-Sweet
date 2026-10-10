@@ -1,0 +1,44 @@
+
+:root{
+	--dark1: #121212;
+	--dark2: #1E1E1E;
+	--dark3: #232323;
+	--dark4: #252525;
+	--dark5: #272727;
+	--control-bar-size: 2.5rem;
+}
+body{
+	background-color: var(--dark1);
+	padding: 0;
+	margin: 0;
+}
+header{
+	background-color: var(--dark2);
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	all: unset;
+	cursor: pointer;
+}
+.btn{
+	font-size: var(--control-bar-size);
+}
+.btn-play{
+	fill: green;
+	width: var(--control-bar-size);
+}
+.btn-pause{
+	width: var(--control-bar-size);
+	fill: red;
+}
+
+.btn-play .icon{
+	width: 100%;
+	height: 100%;
+}
+.btn-pause .icon{
+	width: 100%;
+	height: 100%;
+}
